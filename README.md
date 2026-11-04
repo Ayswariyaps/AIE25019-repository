@@ -89,32 +89,6 @@ This approach computes the ideal quantum state without finite-shot measurement s
 
 **Note:** The experiments use ideal statevector simulation and have not been evaluated on actual quantum hardware.
 
-## Repository Structure
-
-```text
-Patch-Based-Quantum-Image-Representation/
-│
-├── README.md
-├── requirements.txt
-│
-├── notebooks/
-│   ├── conventional_frqi.ipynb
-│   ├── fixed_patch_frqi.ipynb
-│   ├── adaptive_variance.ipynb
-│   ├── adaptive_gradient.ipynb
-│   ├── adaptive_entropy.ipynb
-│   ├── error_based_adaptive_frqi.ipynb
-│   ├── two_value_adaptive_frqi.ipynb
-│   └── multi_value_adaptive_frqi.ipynb
-│
-├── results/
-│   ├── reconstruction/
-│   ├── resource_comparison/
-│   └── evaluation_metrics/
-│
-└── LICENSE
-```
-
 ## Key Findings
 
 The experimental results demonstrate that:
